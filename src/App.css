@@ -561,6 +561,7 @@ width: 25%;
 
 .programme-main{
   gap: 40px;
+  justify-content: space-evenly !important;
 }
 
 .programmes-container{
