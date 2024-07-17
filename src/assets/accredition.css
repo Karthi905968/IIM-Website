@@ -6,9 +6,10 @@
   }
   
   .accreditation-title {
-    font-size: 2.5em;
+    font-size: 34px;
     color: rgba(2, 2, 76, 0.9);
     margin-bottom: 3.5vw;
+    padding: 1rem;
   }
   
   .accreditation-logos {

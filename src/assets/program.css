@@ -1,7 +1,7 @@
 .programme-main{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 5vw;
 }
@@ -139,6 +139,7 @@
 }
 
 .programme-image section img{
+  height: 500px;
   border-radius: 30px 30px 150px 30px;
   transform: translate(15px,-15px);
 }
@@ -190,5 +191,10 @@
   .main-heading{
     font-size: 28px;
   }
+
+  .programme-image section img{
+    height: 400px;
+  }
+
   
 }

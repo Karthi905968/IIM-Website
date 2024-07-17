@@ -341,7 +341,7 @@ object-fit: cover;
   font-weight: 900;
 }
 .blocks h3{
-  line-height: 3vh;
+  line-height: 20px;
 }
 
 @media (max-width: 768px) {
@@ -524,6 +524,49 @@ width: 25%;
 .video-component video{
   height: auto;
 }
+
+.programmes-container{
+  flex-direction: column;
+  width: 60% !important;
+}
+
+.programme-image section img{
+  height: 400px;
+}
+
+}
+
+@media (min-width:769px) and (max-width:1210px){
+  .navbar{
+    padding: 0 !important;
+  }
+
+  .nav-link{
+    padding: 1rem 8px!important;
+  }
+
+  .marquee-left {
+    width: 30%;
+  }
+
+  .style-3{
+    gap: 20px;
+  }
+
+
+.style-7, .style-12{
+  height: 200px;
+  object-fit: cover;
+}
+
+.programme-main{
+  gap: 40px;
+}
+
+.programmes-container{
+  gap: 20px;
+}
+
 
 
 }
