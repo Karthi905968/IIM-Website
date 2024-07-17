@@ -12,10 +12,15 @@ body{
   margin: 0 5vw;
 }
 
+.react-link{
+  color: black;
+  text-decoration: none;
+}
+
 .language-toggle p{
   margin-top: 0;
   text-align: right;
-  margin-right: 1vw;
+  /* margin-right: 1vw; */
 }
 
 .language-toggle span:hover{
@@ -25,18 +30,17 @@ body{
 
 
 .serach-bar{
-  margin-right: 1vw;
+  /* margin-right: 1vw; */
   display: flex;
   align-items: center;
   justify-content: right;
-  height: 35px;
 }
 
 .serach-bar span{
-  display: inline-flex;
+  display: flex;;
   align-items: center;
   justify-content: space-evenly;
-  height: 36px;
+  height: 35px;
   width: 35px;
   background-color: #004080;
 }
@@ -47,23 +51,23 @@ body{
 }
 
 .serach-bar .search{
-  height: 100%;
-  width: 200px;
+  height: auto;
+  width: 150px;
 }
 
 .serach-bar .search-input{
-  height: 35px;
-  width: 0px;
+  height: 34px;
   border: none;
-  background-color: #e7e7e7;
   outline: none;
-  transition: all 0.3s ease-in;
+  width: 0;
+  outline: none;
+  transition: all 0.2s ease-in;
 }
 
 .serach-bar:hover .search-input{
   width: 200px;
+  background-color: #e7e7e7;
   padding-left: 1rem;
-
 }
 
 

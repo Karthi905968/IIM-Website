@@ -19,8 +19,8 @@ function New() {
           </div>
           <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
             <li className="nav-item dropdown">
-              <a href="/" className="nav-link">About &#9662;</a>
-              <div className="dropdown-menu">
+              <a href="/about" className="nav-link">About</a>
+              {/* <div className="dropdown-menu">
                 <div className="dropdown-row">
                   <a href="/">Genesis</a>
                   <a href="/">Mission</a>
@@ -39,7 +39,7 @@ function New() {
                 <div className="dropdown-row">
                   <a href="/">Campus Diary</a>
                 </div>
-              </div>
+              </div> */}
             </li>
             <li className="nav-item dropdown" id='programmes'>
               <a href="/" className="nav-link">Programmes &#9662;</a>
@@ -47,11 +47,13 @@ function New() {
                 <div className="dropdown-row">
                   <a href="/">PGPM (MBA)</a>
                   <a href="/">PGPM-HR (MBA-HR)</a>
-                  <a href="/">PGPBM (Doctoral Programme)</a>
                 </div>
                 <div className="dropdown-row">
                   <a href="/">Executive Ph.D (Executive Doctoral Programme)</a>
                   <a href="/">Ph.D (Doctoral Programme)</a>
+                </div>
+                <div className='dropdown-row'>
+                <a href="/">PGPBM (Doctoral Programme)</a>
                 </div>
               </div>
             </li>
