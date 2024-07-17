@@ -14,8 +14,9 @@ body {
 .navbar-container {
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: start;
     width: 100%;
+   flex-direction: row-reverse;
 }
 
 .navbar-brand {
@@ -111,8 +112,8 @@ body {
 .burger-menu .bar1,
 .burger-menu .bar2,
 .burger-menu .bar3 {
-    width: 25px;
-    height: 3px;
+    width: 20px;
+    height: 2px;
     background-color: white;
     margin: 2px 0;
     transition: 0.4s;
@@ -144,8 +145,8 @@ body {
     }
 
     .nav-link {
-        padding: 15px;
-        width: 100%;
+        padding: 15px 0;
+        /* width: 100%; */
         text-align: center;
     }
 
@@ -169,15 +170,18 @@ body {
         display: flex;
     }
 
+    
     .burger-menu.open .bar1 {
-        transform: rotate(-45deg) translate(-5px, 6px);
+        transform: rotate(45deg) translate(4px, 5px);
     }
-
+    
     .burger-menu.open .bar2 {
         opacity: 0;
     }
-
+    
     .burger-menu.open .bar3 {
-        transform: rotate(45deg) translate(-5px, -6px);
+        transform: rotate(-45deg) translate(4px, -5px);
     }
+    
+    
 }

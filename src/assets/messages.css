@@ -138,3 +138,19 @@
         width: 30vw;
     }
 }
+
+@media (max-width:540px) {
+    .heading_1,.dashboard-heading ,.accreditation-title{
+        font-size: 28px;
+    }
+
+    .accreditation-title{
+        margin-bottom: 3rem;
+    }
+
+    .accreditation-item{
+        flex: 1 1 225px;
+    }
+
+     
+}

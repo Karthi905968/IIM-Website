@@ -23,7 +23,7 @@
   font-size: 2em;
   color: black;
   text-align: center;
-  margin: 1rem;
+  margin: 2rem 0;
 }
 
 .programmes-sidebar {
@@ -116,7 +116,7 @@
 
 .read-more-button,
 .admission-button {
-  background-color: rgba(4, 4, 91);
+  background-color: #004080;
   color: white;
   font-weight: 900;
   border: none;
@@ -145,7 +145,7 @@
 
 @media (max-width: 1024px) {
   .programmes-container {
-    width: 90%;
+    width: 80%;
   }
 
   .programmes-sidebar {
@@ -174,7 +174,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .programmes-sidebar ul li {
     padding: 10px;
   }
@@ -182,4 +182,13 @@
   .programmes-content {
     padding: 10px;
   }
+
+  .programmes-sidebar ul li::after{
+    top: -1px;
+  }
+
+  .main-heading{
+    font-size: 28px;
+  }
+  
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/img/logo.webp'; // Make sure you have the logo image in the appropriate path
+import logo from '../assets/img/iimt_logo.png'; // Make sure you have the logo image in the appropriate path
 import search from '../assets/img/search-3-24.png'
 import { Link } from 'react-router-dom';
 function Header() {

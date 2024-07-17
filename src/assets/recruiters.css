@@ -33,7 +33,7 @@ background-color: rgb(249, 249, 249);
     display: none;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:540px) {
     
 .recruiters-grid{
     flex-direction: column;
@@ -54,10 +54,22 @@ background-color: rgb(249, 249, 249);
   }
   
   .recruiters-grid .heading{
-    font-size: 20px;
+    font-size: 25px;
     padding: 1rem;
   }
   
+}
+
+@media (min-width:541px)  and (max-width:768px){
+  .recruiters-grid .company-images{
+    margin: 0;
+  }
+
+  .recruiters-grid .heading {
+    font-size: 28px;
+    text-align: center;
+    margin: 2vw 0;
+  }
 }
 
 
