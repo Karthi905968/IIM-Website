@@ -26,6 +26,7 @@ background-color: rgb(249, 249, 249);
 
 .recruiters-grid  .company-images img{
     width: 100%;
+    margin: 0 auto;
 }
 
 .recruiters-grid .img2{

@@ -1,9 +1,9 @@
 .programme-main{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 5vw;
+  margin: 0 6vw;
 }
 
 .programmes-container {
