@@ -14,11 +14,12 @@
   
   .accreditation-logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
     margin-bottom: 1vw;
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    padding: 0 5vw;
   }
   
   .accreditation-item {
