@@ -53,7 +53,7 @@ function Footer() {
 			<li class="footer-sns__item"><a href="https://www.youtube.com/channel/UCXMk9MRdGrNHIK6HN2JeLCQ" target="_blank" rel="noopener noreferrer">
 					<img class="lozad" src={youtube} width="38" height="38" alt="youtube" decoding="async" /></a></li>
 		</ul>
-      <p className='footer-outside'>&copy; 2024 IIT Trichy. All rights reserved.</p>
+      <p className='footer-outside'>&copy; 2024 IIM Trichy. All rights reserved.</p>
     </footer>
   );
 }
