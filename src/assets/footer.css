@@ -1,6 +1,6 @@
 .footer {
     background-color: #303030;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 10px;
   }
@@ -36,6 +36,11 @@
   .footer-content ul p{
     font-size: 18px;
     text-transform: uppercase;
+  color: #ffffff;
+  }
+
+  .footer-content ul li{
+    color: #dad9d9;
   }
 
   .footer-content ul li article{
